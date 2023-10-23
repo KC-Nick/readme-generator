@@ -1,14 +1,23 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "readme generator app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "KC-Nick",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KC-Nick/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KC-Nick/readme-generator/issues"
+  },
+  "homepage": "https://github.com/KC-Nick/readme-generator#readme"
 }
