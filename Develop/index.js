@@ -42,8 +42,18 @@ const questions = [
         {
             type: 'list',
             message: "Choose a license for your project.",
-            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'None'],
             name: 'license'
+        },
+        {
+            type: 'input',
+            message: 'Enter your Github username:',
+            name: 'username'
+        },
+        {
+            type: 'input',
+            message: 'Enter your email address:',
+            name: 'email',
         }
     ];
 // TODO: Create a function to write README file
@@ -63,12 +73,6 @@ function init() {
         writeToFile('README.md', generateMarkdown({...responseData}));
         console.log(responseData);
     });
-    // await promptUser(data)
-    // // Use writeFile method imported from fs.promises to use promises instead of
-    // // a callback function
-    // writeToFile('README.md', generateMarkdown(data));
-    // console.log('Successfully wrote to README.md')
-    //     .catch((err) => console.error(err));
 };
 
 // Function call to initialize app
