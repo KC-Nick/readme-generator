@@ -23,6 +23,7 @@
   ## Credits
 
   I would like to credit my wonderful instructors, they have helped teach me a lot in my Bootcamp class!
+  The starter code can be found here: [LINK](https://github.com/coding-boot-camp/potential-enigma).
 
   ## Contribute
 
